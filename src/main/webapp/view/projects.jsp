@@ -58,7 +58,7 @@
             <td>${p.description}</td>
             <td><img width="150" height="150" src="${p.imageUrl}" alt="notFound"/></td>
             <td>
-                <a href="/projects?id=${p.id}&action=Delete"><i class="fa-solid fa-trash"></i></a>
+                <a href="/projects?id=${p.id}&action=Delete" onclick="return confirm('Bạn chắc chắn muốn xóa dự án này?')"><i class="fa-solid fa-trash"></i></a>
                 <a href="/projects?id=${p.id}&action=initUpdate"><i class="fa-solid fa-pen-to-square"></i></a>
             </td>
         </tr>
