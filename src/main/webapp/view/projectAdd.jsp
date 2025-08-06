@@ -49,7 +49,7 @@
     <input name="name" id="name" ><br>
     <label for="description">Descriptions:</label><br>
     <input name="description" id="description"><br>
-    <label for="imageUrl">Name:</label><br>
+    <label for="imageUrl">ImageUrl:</label><br>
     <input name="imageUrl" id="imageUrl"><br>
     <button type="submit" value="add"> Thêm dự án</button>
 </form>
